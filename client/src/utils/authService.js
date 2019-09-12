@@ -9,7 +9,7 @@ function logout() {
 }
 
 function login(userInfo, cb) {
-  return fetch('http://localhost:3001/api/auth/login', {
+  return fetch('/api/auth/login', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify({ userInfo })
@@ -24,7 +24,7 @@ function login(userInfo, cb) {
 }
 
 function signup(userInfo, cb) {
-	fetch('http://localhost:3001/api/auth/signup', {
+	fetch('/api/auth/signup', {
 		method: 'POST',
 		headers: { 'Content-Type': 'application/json' },
 		body: JSON.stringify({ userInfo })
