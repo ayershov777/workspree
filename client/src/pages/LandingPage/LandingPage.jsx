@@ -19,12 +19,12 @@ function LandingPage() {
       justifyContent: 'center'
     }}>
       <Link
-        className="btn btn-lg btn-outline-success"
+        className="btn btn-lg btn-outline-primary"
         to="/jobs"
         style={{ margin: '2px' }}
       > view jobs </Link>
       <Link
-        className="btn btn-lg btn-outline-success"
+        className="btn btn-lg btn-outline-primary"
         to="/signup"
         style={{ margin: '2px' }}
       > Sign Up </Link>
